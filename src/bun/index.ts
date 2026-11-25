@@ -23,15 +23,16 @@ async function getMainViewUrl(): Promise<string> {
 // Create the main application window
 const url = await getMainViewUrl();
 
-const mainWindow = new BrowserWindow({
-	title: "React + Tailwind + Vite",
+new BrowserWindow({
+	title: "Agent Studio",
 	url,
+	titleBarStyle: "hiddenInset",
 	frame: {
-		width: 900,
-		height: 700,
-		x: 200,
-		y: 200,
+		width: 1280,
+		height: 820,
+		x: 160,
+		y: 120,
 	},
 });
 
-console.log("React Tailwind Vite app started!");
+console.log("Agent Studio started");
