@@ -1,0 +1,25 @@
+{
+	"name": "electrobun-react-tailwind-vite",
+	"version": "1.0.0",
+	"description": "Electrobun app with React, Tailwind CSS, and Vite HMR",
+	"dependencies": {
+		"class-variance-authority": "0.7.1",
+		"clsx": "2.1.1",
+		"lucide-react": "1.78.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-router": "7.18.6",
+		"tailwind-merge": "3.7.1"
+	},
+	"devDependencies": {
+		"@tailwindcss/vite": "^4.3.3",
+		"@types/bun": "latest",
+		"@types/react": "^18.3.12",
+		"@types/react-dom": "^18.3.1",
+		"@vitejs/plugin-react": "^5.2.0",
+		"concurrently": "^9.2.5",
+		"tailwindcss": "^4.3.3",
+		"typescript": "~5.9.3",
+		"vite": "^7.3.7"
+	}
+}
